@@ -1,0 +1,11 @@
+{
+  		"awalker": {
+			"id": 0,
+                        "name": "Allen C. Walker",
+                        "accountnumber": "1234", 
+			"level": "Platinum level",
+			"picture" : "images/acw.jpg",
+			"description": "Member since 2017/01/01"
+		}
+}
+ 

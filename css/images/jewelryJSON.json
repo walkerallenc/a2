@@ -1,0 +1,42 @@
+ {
+  		"ring": {
+			"id" : 0,
+			"metal": "silver",
+			"tags" : ["large","fancy","square","mens"],
+			"price" : 100,
+			"picture" : "images/ring.jpg",
+			"purchase_link" : "http://www.whitedovewampum.com"
+		},
+  		"ring": {
+			"id" : 1,
+			"metal": "silver",
+			"tags" : ["large","fancy","square","mens"],
+			"price" : 200,
+			"picture" : "images/ring.jpg",
+			"purchase_link" : "http://www.whitedovewampum.com"
+		},
+		"earring": {
+			"id" : 2,
+			"metal": "copper",
+			"tags" : ["small","simple","oval","mens"],
+			"price" : 50,
+			"picture" : "images/earring.jpg",
+			"purchase_link" : "http://www.whitedovewampum.com"
+       	 	},
+		"bracelet": {
+			"id" : 6,
+			"metal": "gold",
+			"tags" : ["medium","plain","round","womens"],
+			"price" : 325,
+			"picture" : "images/bracelet.jpg",
+			"purchase_link" : "http://www.whitedovewampum.com"
+		},
+		"necklace": {
+			"id" : 8,
+			"metal": "silver",
+			"tags" : ["medium","fancy","round","womens"],
+			"price" : 1900,
+			"picture" : "images/necklace.jpg",
+			"purchase_link" : "http://www.whitedovewampum.com"
+		}
+	}
