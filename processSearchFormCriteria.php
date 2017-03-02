@@ -1,6 +1,5 @@
 <?php
 
-require('tools.php');
 require('Form.php');
 require('ToolsACW.php');
 require('Warehouse.php');
