@@ -3,15 +3,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Assignment 2</title>	<title>Checkboxes Example</title>
+  <title>Assignment 2</title>
   <meta charset='utf-8'>
   <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet'>
   <link href='https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="/css/acw.css" /> 
 </head>
 <body>
-
-
 <div class="h_one">
   <h1>Online Jewelry Store</h1>
 </div>
@@ -20,13 +18,10 @@
 </div>
 <br>
 
-
-
-
-  <form method='GET' action='search.php'> 
-     <div class="h_two">
-       <img src='images/acwturtle_sm.jpg' alt='turtle'>
-     </div> 
+<form method='GET' action='search.php'> 
+  <div class="h_two">
+    <img src='images/acwturtle_sm.jpg' alt='turtle'>
+  </div> 
 <?php if($errors): ?>
   <div class='alert alert-danger'>
     <ul>
