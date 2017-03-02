@@ -39,6 +39,7 @@ if(isset($_GET['jcategory']))
                 return $jewelry;
           }
     }
+
 ##############################################################
 #    # Remove trailing comma
 #    $results = rtrim($results, ', ');

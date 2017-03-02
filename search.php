@@ -51,8 +51,14 @@
   <label for='caseSensitivity'>Case sensitivity on </label>
   <input type='checkbox' name='caseSensitive[]' id='caseSensitivity' value='caseon' <?php if(strstr($results2, 'caseon')) echo 'CHECKED'?>> Yes
   <br>
-  <input type='submit' text='submit search' class='acw.css'>
+  <input type='submit' class='acw.css'>
   <br>
+</div>
+<div class="h_two">
+  Valid search strings are "ring", "earring", "bracelet" and "necklace".  
+</div>
+<div class="h_two">
+  One search input is required. 
 </div>
 
 <?php if (isset($_GET['jcategory'])): ?>
