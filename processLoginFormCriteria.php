@@ -31,7 +31,7 @@ if($form->isSubmitted())
        $authorizationResults=[];
        $alertType = 'alert-info';
        #$userlogin = 'You chose '.$userlogin;
-       $authorizationResults = $security->getUser($userlogin, $caseSensitive);
+       $authorizationResults = $security->getUser($form->sanitize($userlogin), $caseSensitive);
        $usercount = (count($authorizationResults) == 0) ? false : true;
        return $authorizationResults;
      }
