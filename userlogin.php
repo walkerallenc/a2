@@ -51,7 +51,7 @@
                        <?=$usr['description']?><br>
                      </div>  
                      <div class="h_two">             
-                       <input type='submit' text='Shop' class='/css/acw.css'><br>
+                       <input type='submit' class='/css/acw.css'><br>
                      </div>
                   <?php endforeach; ?>
          <?php elseif(!is_array($authorizationResults)): ?>
