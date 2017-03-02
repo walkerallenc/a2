@@ -40,7 +40,7 @@
   <div class="alert <?=$alertType?>" role="alert"></div>
       <?php if (isset($_GET['securitycheck'])): ?>
          <?php $login=$_GET['securitycheck'] ?>
-   	   <?php foreach($login as $loginchecked => $usrchecked): ?>
+   	   <?php if ($login=='checkenabled'): ?>
              <?php if (is_array($authorizationResults)): ?>
    	          <?php foreach($authorizationResults as $userlogin => $usr): ?>
                     <div class="h_two">
@@ -58,8 +58,8 @@
                  <div class="h_two">
                     Login failed!
                  </div>  
+            <?php endif; ?>
          <?php endif; ?>
-       <?php endforeach; ?>
     <?php endif; ?>
   <div class="alert <?=$alertType?>" role="alert"></div>
   </div>
