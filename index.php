@@ -31,8 +31,8 @@
 
           <label  for='userlogin' class="h_one">User login</label><br>
           <input type='text' name='userlogin' id='userlogin' value='<?=sanitize($userlogin)?>'><br>
-          <input type='radio' name='securitycheck[]' id='securitycheck' value='checkenabled' <?php if(strstr($login, 'checkenabled')) echo 'CHECKED'?>> Enable security<br>
-          <input type='radio' name='securitycheck[]' id='securitycheck' value='checkdisabled' > Disable security<br>
+          <input type='radio' name='securitycheck' id='securitycheck' value='checkenabled' <?php if(strstr($login, 'checkenabled')) echo 'CHECKED'?>> Enable security<br>
+          <input type='radio' name='securitycheck' id='securitycheck' value='checkdisabled' > Disable security<br>
           <input type='submit' class='/css/acw.css'><br>
         </div>  
 </form>
